@@ -307,7 +307,7 @@
             <!-- SERVICE SELECTION -->
             <div id="serviceSelect" class="button-group">
                 <button class="service-button" onclick="selectService('Sisanje', 30)">
-                    ✂️ Sisanje (30 min)
+                    ✂️ Šišanje (30 min)
                 </button>
                 <button class="service-button" onclick="selectService('Boja i balayage', 60)">
                     🎨 Boja i balayage (60 min)
@@ -316,14 +316,13 @@
                     💆 Keratin tretman (90 min)
                 </button>
                 <button class="service-button" onclick="selectService('Kompletan paket', 120)">
-                    👑 Sisanje + Boja + Tretman (2h)
+                    👑 Šišanje + Boja + Tretman (2h)
                 </button>
             </div>
 
             <!-- NAME INPUT -->
             <div id="nameInput" class="hidden">
                 <div class="form-group">
-                    <label class="input-label">Kako se zoveš?</label>
                     <input type="text" id="nameField" class="input-field" placeholder="Unesite vaše ime" />
                     <span id="nameError" class="error-message hidden"></span>
                     <button class="submit-button" onclick="nextStep('name')">Dalje →</button>
@@ -333,7 +332,6 @@
             <!-- PHONE INPUT -->
             <div id="phoneInput" class="hidden">
                 <div class="form-group">
-                    <label class="input-label">Broj telefona</label>
                     <input type="tel" id="phoneField" class="input-field" placeholder="+381 60 123 4567" />
                     <span id="phoneError" class="error-message hidden"></span>
                     <button class="submit-button" onclick="nextStep('phone')">Dalje →</button>
@@ -388,7 +386,7 @@
                 <div class="confirmation-box">
                     <div class="checkmark">✅</div>
                     <h3>Rezervacija je potvrđena!</h3>
-                    <p>Detalji su poslati na vašu telefon. Očekujemo vas! Hvala što ste nas odabrali.</p>
+                    <p>Detalji su poslati na vaš telefon. Očekujemo vas! Hvala što ste nas odabrali.</p>
                 </div>
                 <button class="restart-button" onclick="location.reload()">Nova Rezervacija</button>
             </div>
